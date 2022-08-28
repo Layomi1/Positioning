@@ -1,0 +1,42 @@
+body{ 
+    padding: 40px;
+}
+div {
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: #fff;
+    padding: 5px;
+
+}
+.one  {
+    height: 200px;
+    width: 250px;
+    position: relative;
+    z-index: -1;
+}
+.two {
+    height: 200px;
+    width: 150px;
+    position: relative;
+    left: 180px;
+    bottom: 48px;
+    border-bottom: 0;
+    z-index: 10;
+}
+.three {
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    bottom: 144px;
+    left:  150px;
+    
+    z-index: 20;
+}
+.four {
+    height: 300px;
+    width: 120px;
+    position: relative;
+    left: 380px;
+    top: -400px;
+
+}
